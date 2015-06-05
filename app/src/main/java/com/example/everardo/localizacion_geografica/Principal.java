@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Principal extends Activity{
+
+    // Se declaran las variables
     private Button btnActualizar, btnDesactivar;
     private TextView lblLatitud, lblLongitud, lblPresicion, lblEstadoProveedor;
 
@@ -26,7 +28,7 @@ public class Principal extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
-
+ // se enlanzan los botenoes y los TextView
         btnActualizar = (Button) findViewById(R.id.BtnActualizar);
         btnDesactivar = (Button) findViewById(R.id.BtnDesactivar);
         lblLatitud =(TextView) findViewById(R.id.LblPosLatitud);
